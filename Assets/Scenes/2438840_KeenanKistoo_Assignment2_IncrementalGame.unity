@@ -348,6 +348,7 @@ GameObject:
   - component: {fileID: 653182224}
   - component: {fileID: 653182223}
   - component: {fileID: 653182222}
+  - component: {fileID: 653182225}
   m_Layer: 5
   m_Name: upgradeButton
   m_TagString: Untagged
@@ -418,7 +419,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 653182223}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 653182225}
+        m_TargetAssemblyTypeName: Upgrade, Assembly-CSharp
+        m_MethodName: UpgradeTown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 20
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &653182223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -457,6 +470,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653182220}
   m_CullTransparentMesh: 1
+--- !u!114 &653182225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653182220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 941094d5cfb42bd438ea0365f00fa1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinControl: {fileID: 1748301172}
+  costTrack: 20
 --- !u!1 &689685231
 GameObject:
   m_ObjectHideFlags: 0

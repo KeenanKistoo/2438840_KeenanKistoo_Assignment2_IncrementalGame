@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ClickBehaviour : MonoBehaviour
 {
-    public int clickCount;
-    public int clickMultiplier;
+    public float clickCount;
+    public float clickMultiplier;
 
     private void Start()
     {

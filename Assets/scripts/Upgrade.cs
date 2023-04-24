@@ -5,12 +5,26 @@ using UnityEngine.UI;
 
 public class Upgrade : MonoBehaviour
 {
-    [Header("Coin Controller")]
+    [Header("Coin Controller:")]
     public ClickBehaviour coinControl;
 
-    public void UpgradeTown(float cost)
+    [Header("Trackers:")]
+    public float costTrack;
+    
+
+    public void UpgradeTown()
     {
         
+        if(costTrack <= coinControl.clickCount)
+        {
+            coinControl.clickCount -= costTrack;
+            costTrack *= 1.05f;
+            print(costTrack);
+        }
+        else
+        {
+            print("not enough");
+        }
     }
 
     public void LevelTracker(int upgradeNum)

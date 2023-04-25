@@ -10,6 +10,7 @@ public class ClickBehaviour : MonoBehaviour
 
     [Header("Display:")]
     public Text clickText;
+    public Text multText;
 
     private void Start()
     {
@@ -35,5 +36,21 @@ public class ClickBehaviour : MonoBehaviour
         {
             clickText.text = clickCount.ToString();
         }
+    }
+
+    public void MultiplierGrammerCheck()
+    {
+        if(clickMultiplier == 0 || clickMultiplier > 1)
+        {
+            multText.text = clickMultiplier.ToString() + " coins per second";
+        }else if (clickMultiplier == 1)
+        {
+            multText.text = clickMultiplier.ToString() + " coin per second";
+        }
+    }
+
+    private void Update()
+    {
+       MultiplierGrammerCheck();
     }
 }

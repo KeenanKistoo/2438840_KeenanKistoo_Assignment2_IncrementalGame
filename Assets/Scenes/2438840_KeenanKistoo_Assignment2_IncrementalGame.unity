@@ -346,6 +346,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131543398}
   m_CullTransparentMesh: 1
+--- !u!114 &143993600 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844741405086, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1892724408}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &177979502
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,6 +667,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211214341}
   m_CullTransparentMesh: 1
+--- !u!114 &250396229 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844741405086, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1357726136}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &345475880
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +794,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360276522}
   m_CullTransparentMesh: 1
+--- !u!114 &381830563 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844741405086, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 566764625}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &384579006
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,6 +837,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &410682185 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844741405086, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 467092438}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &428297986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -901,12 +945,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194325, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Name
-      value: shop_upgradeButton
+      value: upgradeButton
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194326, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 9c5d7296c780a3c41b8251d05a34b11b, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlText
+      value: 
+      objectReference: {fileID: 2084437050}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1370703498}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlArray
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costTrack
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlControl
+      value: 
+      objectReference: {fileID: 689685233}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: coinControl
+      value: 
+      objectReference: {fileID: 1748301172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
 --- !u!224 &428297987 stripped
@@ -1009,10 +1077,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1386144844128194325, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: m_Name
+      value: upgradeButton
+      objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194326, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 738935f03f40afd4ca16ba086d08ee1a, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlText
+      value: 
+      objectReference: {fileID: 725448669}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 410682185}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlArray
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costTrack
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlControl
+      value: 
+      objectReference: {fileID: 689685233}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: coinControl
+      value: 
+      objectReference: {fileID: 1748301172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
 --- !u!224 &467092439 stripped
@@ -1432,12 +1528,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194325, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Name
-      value: shop_upgradeButton
+      value: upgradeButton
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194326, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 62b049b45143e974ebb1093003aacb18, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlText
+      value: 
+      objectReference: {fileID: 1869720174}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 381830563}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlArray
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costTrack
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlControl
+      value: 
+      objectReference: {fileID: 689685233}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: coinControl
+      value: 
+      objectReference: {fileID: 1748301172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
 --- !u!224 &566764626 stripped
@@ -1491,9 +1611,25 @@ MonoBehaviour:
   upgradeName:
   - Homes
   - Shops
-  - Doctor
-  - Tarred Road
-  upgradeLevel: 00000000000000000000000000000000
+  - Restaurant
+  - Roads
+  - School
+  - Apartments
+  - Malls
+  - Stadium
+  - Hospital
+  upgradeLevel: 000000000000000000000000000000000000000000000000000000000000000000000000
+--- !u!114 &725448669 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844149405436, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 467092438}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &733471126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,6 +1794,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736284528}
   m_CullTransparentMesh: 1
+--- !u!114 &806474220 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844149405436, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1645833380}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &918314244
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,6 +2045,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168226521}
   m_CullTransparentMesh: 1
+--- !u!114 &1228070367 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844741405086, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1386144843821888577}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1231128161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1995,12 +2153,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194325, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Name
-      value: shop_upgradeButton
+      value: upgradeButton
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194326, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: dff61937b3043324eae58642c9df3818, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlText
+      value: 
+      objectReference: {fileID: 1942303746}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 2034647141}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlArray
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costTrack
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlControl
+      value: 
+      objectReference: {fileID: 689685233}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: coinControl
+      value: 
+      objectReference: {fileID: 1748301172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
 --- !u!224 &1231128162 stripped
@@ -2343,12 +2525,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194325, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Name
-      value: shop_upgradeButton
+      value: upgradeButton
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194326, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8e125d5bc27907740a95db5ba8585171, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlText
+      value: 
+      objectReference: {fileID: 1518304987}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1621492292}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlArray
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costTrack
+      value: 8000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlControl
+      value: 
+      objectReference: {fileID: 689685233}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: coinControl
+      value: 
+      objectReference: {fileID: 1748301172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
 --- !u!224 &1316422878 stripped
@@ -2489,12 +2695,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194325, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Name
-      value: shop_upgradeButton
+      value: upgradeButton
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194326, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: f3a462bf81874f4449ed74bd79f45ee5, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlText
+      value: 
+      objectReference: {fileID: 1962452400}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 250396229}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlArray
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costTrack
+      value: 2200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlControl
+      value: 
+      objectReference: {fileID: 689685233}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: coinControl
+      value: 
+      objectReference: {fileID: 1748301172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
 --- !u!224 &1357726137 stripped
@@ -2502,6 +2732,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1386144843338159985, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
   m_PrefabInstance: {fileID: 1357726136}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1370703498 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844741405086, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 428297986}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1383036432
 GameObject:
   m_ObjectHideFlags: 0
@@ -2581,6 +2822,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383036432}
   m_CullTransparentMesh: 1
+--- !u!114 &1488938700 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844741405086, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1645833380}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1502927210
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,6 +2976,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502927210}
   m_CullTransparentMesh: 1
+--- !u!114 &1518304987 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844149405436, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1316422877}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1555188547
 GameObject:
   m_ObjectHideFlags: 0
@@ -2840,6 +3103,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1621492292 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844741405086, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1316422877}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1645833380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2937,12 +3211,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194325, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Name
-      value: shop_upgradeButton
+      value: upgradeButton
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194326, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: a172abef34eb0c84b926e262fd184a35, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlText
+      value: 
+      objectReference: {fileID: 806474220}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1488938700}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlArray
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costTrack
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlControl
+      value: 
+      objectReference: {fileID: 689685233}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: coinControl
+      value: 
+      objectReference: {fileID: 1748301172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
 --- !u!224 &1645833381 stripped
@@ -3248,6 +3546,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -103}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1845330621 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844149405436, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1386144843821888577}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1869720174 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844149405436, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 566764625}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1892724408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3345,12 +3665,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194325, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Name
-      value: shop_upgradeButton
+      value: upgradeButton
       objectReference: {fileID: 0}
     - target: {fileID: 1386144844128194326, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 333fc89ed9a867b40a3c1008c8ab1496, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlText
+      value: 
+      objectReference: {fileID: 2102175603}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 143993600}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlArray
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costTrack
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlControl
+      value: 
+      objectReference: {fileID: 689685233}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: coinControl
+      value: 
+      objectReference: {fileID: 1748301172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
 --- !u!224 &1892724409 stripped
@@ -3437,6 +3781,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923810820}
   m_CullTransparentMesh: 1
+--- !u!114 &1942303746 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844149405436, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1231128161}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1962452400 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844149405436, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1357726136}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2031961626
 GameObject:
   m_ObjectHideFlags: 0
@@ -3516,6 +3882,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031961626}
   m_CullTransparentMesh: 1
+--- !u!114 &2034647141 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844741405086, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1231128161}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2081478302
 GameObject:
   m_ObjectHideFlags: 0
@@ -3595,6 +3972,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081478302}
   m_CullTransparentMesh: 1
+--- !u!114 &2084437050 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844149405436, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 428297986}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2102175603 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1386144844149405436, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+  m_PrefabInstance: {fileID: 1892724408}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2110824649
 GameObject:
   m_ObjectHideFlags: 0
@@ -4015,5 +4414,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1386144844128194325, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: m_Name
+      value: upgradeButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlText
+      value: 
+      objectReference: {fileID: 1845330621}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costText
+      value: 
+      objectReference: {fileID: 1228070367}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: costTrack
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: lvlControl
+      value: 
+      objectReference: {fileID: 689685233}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: coinControl
+      value: 
+      objectReference: {fileID: 1748301172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}

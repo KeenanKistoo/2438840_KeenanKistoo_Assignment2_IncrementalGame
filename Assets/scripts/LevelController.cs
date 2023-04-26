@@ -8,5 +8,6 @@ public class LevelController : MonoBehaviour
     public string[] upgradeName;
     public int[] upgradeLevel;
 
-
+    [Header("Tracker")]
+    public int structCount;
 }

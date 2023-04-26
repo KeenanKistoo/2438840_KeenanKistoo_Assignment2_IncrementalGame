@@ -14,7 +14,14 @@ public class ClickBehaviour : MonoBehaviour
 
     private void Start()
     {
+        clickMultiplier = 1;
         clickCount = 0;
+    }
+
+    private void Update()
+    {
+        MultiplierGrammerCheck();
+        MultiplierCheck();
     }
 
     public void Click()
@@ -49,8 +56,12 @@ public class ClickBehaviour : MonoBehaviour
         }
     }
 
-    private void Update()
+    public void MultiplierCheck()
     {
-       MultiplierGrammerCheck();
+        
+        clickCount += clickMultiplier * Time.deltaTime;
+        int clickRound = (int)clickCount;
+        clickText.text = clickRound.ToString();
+        
     }
 }

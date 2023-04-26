@@ -28,7 +28,7 @@ public class Upgrade : MonoBehaviour
         if(costTrack <= coinControl.clickCount)
         {
             coinControl.clickCount -= costTrack;
-            costTrack *= 1.05f;
+            //costTrack *= 1.05f;
             print(costTrack);
         }
         else

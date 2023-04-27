@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6905290194179380735}
   - component: {fileID: 6905290194179380734}
   m_Layer: 5
-  m_Name: counter
-  m_TagString: Untagged
+  m_Name: schoolCounter
+  m_TagString: school
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -166,8 +166,8 @@ GameObject:
   - component: {fileID: 6905290194241110984}
   - component: {fileID: 6905290194241110987}
   m_Layer: 5
-  m_Name: counter
-  m_TagString: Untagged
+  m_Name: shopCounter
+  m_TagString: shop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -936,8 +936,8 @@ GameObject:
   - component: {fileID: 6905290195308386973}
   - component: {fileID: 6905290195308386972}
   m_Layer: 5
-  m_Name: counter
-  m_TagString: Untagged
+  m_Name: foodCounter
+  m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1777,8 +1777,8 @@ GameObject:
   - component: {fileID: 6905290196188566998}
   - component: {fileID: 6905290196188566993}
   m_Layer: 5
-  m_Name: counter
-  m_TagString: Untagged
+  m_Name: houseCounter
+  m_TagString: house
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -305,9 +305,15 @@ MonoBehaviour:
   costTrack: 0
   buildMulti: 0
   thisMulti: 0
-  lvlArray: 0
+  lvlCount: 0
+  basic: 0
+  road: 0
+  basicCount: 0
   costText: {fileID: 0}
   lvlText: {fileID: 0}
+  dirOne: {fileID: 0}
+  dirTwo: {fileID: 0}
+  parent: {fileID: 0}
 --- !u!61 &2385862843431389600
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -346,6 +352,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832014172e7c57e4a88d0e812b5380a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tooltip: {fileID: 0}
+  upgradeName: 
+  baseMult: 
+  currMult: 
+  totalUpgrade: 
+  upgradeText: {fileID: 0}
+  baseMultText: {fileID: 0}
+  currMultText: {fileID: 0}
+  totalUpgradeText: {fileID: 0}
+  upgrade: {fileID: 0}
 --- !u!1 &1386144844149405434
 GameObject:
   m_ObjectHideFlags: 0

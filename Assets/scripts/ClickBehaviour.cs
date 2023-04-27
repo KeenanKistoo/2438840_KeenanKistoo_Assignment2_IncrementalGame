@@ -7,26 +7,33 @@ public class ClickBehaviour : MonoBehaviour
     [Header("Core Mechanics:")]
     public float clickCount;
     public float clickMultiplier;
+    public float click;
 
     [Header("Display:")]
     public Text clickText;
     public Text multText;
 
+    [Header("Particle Prefab:")]
+    public GameObject particles;
+    public GameObject parent;
     private void Start()
     {
-        clickMultiplier = 1;
+        clickMultiplier = 0;
         clickCount = 0;
+        click = 1;
     }
 
     private void Update()
     {
+         MultiplierCheck();
         MultiplierGrammerCheck();
-        MultiplierCheck();
+        multText.text = clickMultiplier.ToString() + " Coins Per Second";
     }
 
     public void Click()
     {
-        clickCount += clickMultiplier;
+        clickCount += click;
+        
         DecimalControl();
     }
 

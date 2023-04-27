@@ -18,6 +18,7 @@ public class Upgrade : MonoBehaviour
     public bool road;
     public int basicCount;
 
+
     [Header("UI Elements:")]
     public Text costText;
     public Text lvlText;
@@ -26,16 +27,22 @@ public class Upgrade : MonoBehaviour
     public GameObject dirOne;
     public GameObject dirTwo;
     public GameObject parent;
+    public GameObject homeObj;
+    int upgradeCount;
+    
 
     
     private void Start()
     {
-        SetUp();        
+        SetUp();
+        
     }
 
     private void Update()
     {
         AffordCheck();
+        
+
     }
 
     public void UpgradeTown()
@@ -52,6 +59,7 @@ public class Upgrade : MonoBehaviour
             lvlCount += 1;
             lvlText.text = 'X' + lvlCount.ToString();
             Directory();
+            
         }
         else
         {
@@ -62,14 +70,15 @@ public class Upgrade : MonoBehaviour
 
     public void LevelTracker(int upgradeNum)
     {
-
+        lvlControl.upgradeLevel[upgradeNum] += 1;
+        upgradeCount = upgradeNum;
     }
 
     public void SetUp()
     {
         costText.text = costTrack.ToString();
         lvlCount = 0;
-        basicCount = 19;
+        basicCount = 0;
         lvlText.text = "X" + lvlCount.ToString();
     }
 
@@ -85,6 +94,37 @@ public class Upgrade : MonoBehaviour
         }
     }
 
+    public void ImageTrack(int num)
+    {
+        if(num == 0) //Apartment
+        {
+            lvlControl.apartment[lvlControl.tab2].SetActive(true);
+            lvlControl.mall[lvlControl.tab2].SetActive(false);
+            lvlControl.stadium[lvlControl.tab2].SetActive(false);
+            lvlControl.hospital[lvlControl.tab2].SetActive(false);
+        }else if(num == 1) //mall
+        {
+            lvlControl.apartment[lvlControl.tab2].SetActive(false);
+            lvlControl.mall[lvlControl.tab2].SetActive(true);
+            lvlControl.stadium[lvlControl.tab2].SetActive(false);
+            lvlControl.hospital[lvlControl.tab2].SetActive(false);
+        }
+        else if(num == 2) //stadium
+        {
+            lvlControl.apartment[lvlControl.tab2].SetActive(false);
+            lvlControl.mall[lvlControl.tab2].SetActive(false);
+            lvlControl.stadium[lvlControl.tab2].SetActive(true);
+            lvlControl.hospital[lvlControl.tab2].SetActive(false);
+        }
+        else if(num == 3) //hospital
+        {
+            lvlControl.apartment[lvlControl.tab2].SetActive(false);
+            lvlControl.mall[lvlControl.tab2].SetActive(false);
+            lvlControl.stadium[lvlControl.tab2].SetActive(false);
+            lvlControl.hospital[lvlControl.tab2].SetActive(true);
+        }
+    }
+
     public void Directory()
     {
         if (basic && !road)
@@ -92,13 +132,33 @@ public class Upgrade : MonoBehaviour
             lvlControl.structCount++;
             if(lvlControl.structCount == 20)
             {
-                GameObject directory = Instantiate(dirOne);
-                directory.transform.SetParent(parent.transform, false);
+                //GameObject directory = Instantiate(dirOne);
+                //directory.transform.SetParent(parent.transform, false);
+                lvlControl.inactiveOne[lvlControl.tab].SetActive(true);
+                StartCoroutine(NumberCheck());
+                
+
             }
         }else if(!basic && !road)
         {
-            GameObject directoryTwo= Instantiate(dirTwo);
-            directoryTwo.transform.SetParent(parent.transform, false);
+            //GameObject directoryTwo= Instantiate(dirTwo);
+            //directoryTwo.transform.SetParent(parent.transform, false);
+            lvlControl.inactiveTwo[lvlControl.tab2].SetActive(true);
+            lvlControl.tab2 += 1;
+
+
         }
+    }
+
+    IEnumerator NumberCheck()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        lvlControl.homeInactive[lvlControl.tab].text = "X" + lvlControl.upgradeLevel[0].ToString();
+        lvlControl.shopInactive[lvlControl.tab].text = "X" + lvlControl.upgradeLevel[1].ToString();
+        lvlControl.foodInactive[lvlControl.tab].text = "X" + lvlControl.upgradeLevel[2].ToString();
+        lvlControl.schoolInactive[lvlControl.tab].text = "X" + lvlControl.upgradeLevel[4].ToString();
+        lvlControl.structCount = 0;
+        lvlControl.tab += 1;
     }
 }

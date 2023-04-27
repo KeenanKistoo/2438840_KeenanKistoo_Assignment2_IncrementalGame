@@ -21,13 +21,16 @@ public class TooltipControl : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     public Text currMultText;
     public Text totalUpgradeText;
 
+    [Header("Upgrade Script:")]
+    public Upgrade upgrade;
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         tooltip.SetActive(true);
         upgradeText.text = upgradeName;
-        baseMultText.text = "Base Multiplier: " + baseMult;
-        //currMultText.text = currMult;
-        totalUpgradeText.text = "Total Upgrades Completed: " + '+' + totalUpgrade;
+        baseMultText.text = "Base Multiplier: " + baseMult + " coins per second";
+        currMultText.text = "Total Multiplier: " + upgrade.thisMulti + " coins per second";
+        totalUpgradeText.text = "Total Upgrades Completed: " + 'x' + upgrade.lvlCount;
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -35,7 +38,7 @@ public class TooltipControl : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         tooltip.SetActive(false);
         upgradeText.text = "";
         baseMultText.text = "";
-        //currMultText.text = currMult;
+        currMultText.text = "";
         totalUpgradeText.text = "";
     }
 }

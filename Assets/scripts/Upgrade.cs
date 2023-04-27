@@ -13,7 +13,8 @@ public class Upgrade : MonoBehaviour
     public float costTrack;
     public float buildMulti;
     public float thisMulti;
-    public int lvlArray;
+    public int lvlCount;
+    public bool basic;
 
     [Header("UI Elements:")]
     public Text costText;
@@ -41,6 +42,8 @@ public class Upgrade : MonoBehaviour
             costText.text = cost.ToString();
             coinControl.clickMultiplier += buildMulti;
             thisMulti += buildMulti;
+            lvlCount += 1;
+            lvlText.text = 'X' + lvlCount.ToString();
             //print(costTrack);
         }
         else
@@ -58,7 +61,8 @@ public class Upgrade : MonoBehaviour
     public void SetUp()
     {
         costText.text = costTrack.ToString();
-        lvlText.text = "X" + lvlControl.upgradeLevel[lvlArray].ToString();
+        lvlCount = 0;
+        lvlText.text = "X" + lvlCount.ToString();
     }
 
     public void AffordCheck()

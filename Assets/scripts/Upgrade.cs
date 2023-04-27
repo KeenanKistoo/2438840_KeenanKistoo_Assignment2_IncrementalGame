@@ -108,6 +108,7 @@ public class Upgrade : MonoBehaviour
             lvlControl.mall[lvlControl.tab2].SetActive(true);
             lvlControl.stadium[lvlControl.tab2].SetActive(false);
             lvlControl.hospital[lvlControl.tab2].SetActive(false);
+            print(num);
         }
         else if(num == 2) //stadium
         {

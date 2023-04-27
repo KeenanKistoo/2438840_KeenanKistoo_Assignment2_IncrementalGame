@@ -31,6 +31,7 @@ public class TooltipControl : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         baseMultText.text = "Base Multiplier: " + baseMult + " coins per second";
         currMultText.text = "Total Multiplier: " + upgrade.thisMulti + " coins per second";
         totalUpgradeText.text = "Total Upgrades Completed: " + 'x' + upgrade.lvlCount;
+
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -40,5 +41,10 @@ public class TooltipControl : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         baseMultText.text = "";
         currMultText.text = "";
         totalUpgradeText.text = "";
+    }
+
+    private void Update()
+    {
+        
     }
 }

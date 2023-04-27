@@ -1353,6 +1353,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 9c5d7296c780a3c41b8251d05a34b11b, type: 3}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirOne
+      value: 
+      objectReference: {fileID: 6905290195318522626, guid: a7246e3df591f1e458e6c2585a705493, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirTwo
+      value: 
+      objectReference: {fileID: 7634132566972495127, guid: 0d378e55fb6d5b748a193d67162c4d4c, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725271007}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: lvlText
       value: 
       objectReference: {fileID: 2084437050}
@@ -1367,6 +1383,10 @@ PrefabInstance:
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: costTrack
       value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basicCount
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: buildMulti
@@ -1523,6 +1543,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 738935f03f40afd4ca16ba086d08ee1a, type: 3}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirOne
+      value: 
+      objectReference: {fileID: 6905290195318522626, guid: a7246e3df591f1e458e6c2585a705493, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirTwo
+      value: 
+      objectReference: {fileID: 7634132566972495127, guid: 0d378e55fb6d5b748a193d67162c4d4c, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725271007}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: lvlText
       value: 
       objectReference: {fileID: 725448669}
@@ -1537,6 +1573,10 @@ PrefabInstance:
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: costTrack
       value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basicCount
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: buildMulti
@@ -2177,6 +2217,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 62b049b45143e974ebb1093003aacb18, type: 3}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirOne
+      value: 
+      objectReference: {fileID: 6905290195318522626, guid: a7246e3df591f1e458e6c2585a705493, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirTwo
+      value: 
+      objectReference: {fileID: 7634132566972495127, guid: 0d378e55fb6d5b748a193d67162c4d4c, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725271007}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: lvlText
       value: 
       objectReference: {fileID: 1869720174}
@@ -2191,6 +2243,10 @@ PrefabInstance:
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: costTrack
       value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basicCount
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: buildMulti
@@ -3516,6 +3572,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: dff61937b3043324eae58642c9df3818, type: 3}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirOne
+      value: 
+      objectReference: {fileID: 6905290195318522626, guid: a7246e3df591f1e458e6c2585a705493, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirTwo
+      value: 
+      objectReference: {fileID: 7634132566972495127, guid: 0d378e55fb6d5b748a193d67162c4d4c, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725271007}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: lvlText
       value: 
       objectReference: {fileID: 1942303746}
@@ -3530,6 +3598,10 @@ PrefabInstance:
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: costTrack
       value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basicCount
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: buildMulti
@@ -3999,6 +4071,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 8e125d5bc27907740a95db5ba8585171, type: 3}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirOne
+      value: 
+      objectReference: {fileID: 6905290195318522626, guid: a7246e3df591f1e458e6c2585a705493, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirTwo
+      value: 
+      objectReference: {fileID: 7634132566972495127, guid: 0d378e55fb6d5b748a193d67162c4d4c, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725271007}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: lvlText
       value: 
       objectReference: {fileID: 1518304987}
@@ -4013,6 +4097,10 @@ PrefabInstance:
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: costTrack
       value: 8000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basicCount
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: buildMulti
@@ -4205,6 +4293,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: f3a462bf81874f4449ed74bd79f45ee5, type: 3}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirOne
+      value: 
+      objectReference: {fileID: 6905290195318522626, guid: a7246e3df591f1e458e6c2585a705493, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirTwo
+      value: 
+      objectReference: {fileID: 7634132566972495127, guid: 0d378e55fb6d5b748a193d67162c4d4c, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725271007}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: lvlText
       value: 
       objectReference: {fileID: 1962452400}
@@ -4219,6 +4319,10 @@ PrefabInstance:
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: costTrack
       value: 2200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basicCount
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: buildMulti
@@ -5122,6 +5226,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a172abef34eb0c84b926e262fd184a35, type: 3}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirOne
+      value: 
+      objectReference: {fileID: 6905290195318522626, guid: a7246e3df591f1e458e6c2585a705493, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirTwo
+      value: 
+      objectReference: {fileID: 7634132566972495127, guid: 0d378e55fb6d5b748a193d67162c4d4c, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725271007}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: lvlText
       value: 
       objectReference: {fileID: 806474220}
@@ -5136,6 +5252,10 @@ PrefabInstance:
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: costTrack
       value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basicCount
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: buildMulti
@@ -5818,6 +5938,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 333fc89ed9a867b40a3c1008c8ab1496, type: 3}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirOne
+      value: 
+      objectReference: {fileID: 6905290195318522626, guid: a7246e3df591f1e458e6c2585a705493, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirTwo
+      value: 
+      objectReference: {fileID: 7634132566972495127, guid: 0d378e55fb6d5b748a193d67162c4d4c, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725271007}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: lvlText
       value: 
       objectReference: {fileID: 2102175603}
@@ -5832,6 +5968,10 @@ PrefabInstance:
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: costTrack
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basicCount
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: buildMulti
@@ -7147,6 +7287,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: upgradeButton
       objectReference: {fileID: 0}
+    - target: {fileID: 1386144844128194327, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386144844128194327, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386144844128194327, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 102299742}
+    - target: {fileID: 1386144844128194327, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386144844128194327, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386144844128194327, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386144844128194327, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirOne
+      value: 
+      objectReference: {fileID: 6905290195318522626, guid: a7246e3df591f1e458e6c2585a705493, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: dirTwo
+      value: 
+      objectReference: {fileID: 7634132566972495127, guid: 0d378e55fb6d5b748a193d67162c4d4c, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 1725271007}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: lvlText
       value: 
@@ -7158,6 +7342,10 @@ PrefabInstance:
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: costTrack
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: basicCount
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: buildMulti

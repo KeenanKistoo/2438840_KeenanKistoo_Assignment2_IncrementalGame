@@ -15,10 +15,16 @@ public class Upgrade : MonoBehaviour
     public float thisMulti;
     public int lvlCount;
     public bool basic;
+    public int basicCount;
 
     [Header("UI Elements:")]
     public Text costText;
     public Text lvlText;
+
+    [Header("Directory Control")]
+    public GameObject dirOne;
+    public GameObject dirTwo;
+    public GameObject parent;
 
     
     private void Start()
@@ -44,7 +50,7 @@ public class Upgrade : MonoBehaviour
             thisMulti += buildMulti;
             lvlCount += 1;
             lvlText.text = 'X' + lvlCount.ToString();
-            //print(costTrack);
+            Directory();
         }
         else
         {
@@ -62,6 +68,7 @@ public class Upgrade : MonoBehaviour
     {
         costText.text = costTrack.ToString();
         lvlCount = 0;
+        basicCount = 19;
         lvlText.text = "X" + lvlCount.ToString();
     }
 
@@ -74,6 +81,23 @@ public class Upgrade : MonoBehaviour
         else
         {
             costText.color = new Color32(116,0,0,255);
+        }
+    }
+
+    public void Directory()
+    {
+        if (basic)
+        {
+            basicCount++;
+            print(basicCount);
+
+            if(basicCount == 20)
+            {
+                GameObject directory = Instantiate(dirOne);
+                directory.transform.SetParent(parent.transform, false);
+                //directory.transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+
+            }
         }
     }
 }

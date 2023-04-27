@@ -2441,7 +2441,7 @@ MonoBehaviour:
   - Stadium
   - Hospital
   upgradeLevel: 000000000000000000000000000000000000000000000000000000000000000000000000
-  structCount: 0
+  structCount: 19
 --- !u!114 &725448669 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1386144844149405436, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
@@ -5225,6 +5225,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: a172abef34eb0c84b926e262fd184a35, type: 3}
+    - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
+      propertyPath: road
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4904993064874804615, guid: 93d4b90e1ba11fd418c5beee5660bbde, type: 3}
       propertyPath: dirOne
       value: 

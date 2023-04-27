@@ -15,6 +15,7 @@ public class Upgrade : MonoBehaviour
     public float thisMulti;
     public int lvlCount;
     public bool basic;
+    public bool road;
     public int basicCount;
 
     [Header("UI Elements:")]
@@ -86,18 +87,18 @@ public class Upgrade : MonoBehaviour
 
     public void Directory()
     {
-        if (basic)
+        if (basic && !road)
         {
-            basicCount++;
-            print(basicCount);
-
-            if(basicCount == 20)
+            lvlControl.structCount++;
+            if(lvlControl.structCount == 20)
             {
                 GameObject directory = Instantiate(dirOne);
                 directory.transform.SetParent(parent.transform, false);
-                //directory.transform.position = new Vector3(transform.position.x, transform.position.y, 0);
-
             }
+        }else if(!basic && !road)
+        {
+            GameObject directoryTwo= Instantiate(dirTwo);
+            directoryTwo.transform.SetParent(parent.transform, false);
         }
     }
 }

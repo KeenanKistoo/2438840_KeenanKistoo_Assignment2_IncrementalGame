@@ -40,8 +40,14 @@ public class LevelController : MonoBehaviour
     public List <GameObject> stadium = new List<GameObject>();
     public List<GameObject> hospital = new List<GameObject>();
 
+    [Header("Population Control:")]
+    public Text population;
+    public Text dayVisit;
+    public int pop;
+    public int day;
     private void Update()
     {
-        
+        population.text = pop.ToString();
+        dayVisit.text = day.ToString(); 
     }
 }

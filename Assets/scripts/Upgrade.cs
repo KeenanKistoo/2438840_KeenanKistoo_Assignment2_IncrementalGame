@@ -29,6 +29,8 @@ public class Upgrade : MonoBehaviour
     public GameObject parent;
     public GameObject homeObj;
     int upgradeCount;
+    public int population;
+    public int dayVisitors;
     
 
     
@@ -58,6 +60,8 @@ public class Upgrade : MonoBehaviour
             thisMulti += buildMulti;
             lvlCount += 1;
             lvlText.text = 'X' + lvlCount.ToString();
+            lvlControl.pop += population;
+            lvlControl.day += dayVisitors;
             Directory();
             
         }
